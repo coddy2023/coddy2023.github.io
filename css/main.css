@@ -1,0 +1,66 @@
+@font-face {
+	font-family: 'Riimut';
+	src: url('../fonts/Riimut.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+*{
+	margin-top: 0px;
+	padding: 10px;
+}
+
+body {
+	background-color: #64CCC5;
+	font-family: 'Riimut';
+	font-size: 16px;
+	color: #176B87;
+	margin-top: 0px;
+
+}
+
+div {
+	width: 85%;
+	margin: auto;
+	background-color: #EEEEEE;
+	margin-top: 0px;
+	box-shadow: 0 0 20px 3px rgba(5, 59, 80, 0.7);
+}
+
+h1 {
+	font-size: 32px;
+	color: #053B50;
+	font-family: 'Rubik Wet Paint', cursive;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	color:#176B87;
+	font-family: 'Riimut';
+	font-size: 24px;
+}
+span {
+	background-color: #176B87;
+	color:#EEEEEE;
+	font-family: 'Rubik Wet Paint', cursive;
+	padding: 3px;
+}
+
+li {
+	padding: 3px;
+}
+
+a {
+	text-decoration: none;
+	color:#053B50;
+	border-bottom: 1px solid transparent;
+	display: inline-block;
+	transition: 0.5s ease-in;
+	padding: 5px 0;
+}
+a:hover {
+	border-bottom-color: #053B50;
+}

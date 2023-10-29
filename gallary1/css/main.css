@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'BrahmsGotisch';
+	src: url('../fonts/BrahmsGotischCyr.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #eee;
+}
+
+.main {
+	background-color: #fff;
+	width: 95%;
+	max-width: 1000px;
+	margin: auto;
+	box-shadow: 0 0 10px 1px rgba(255, 0, 255, 0.3);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	max-width: 490px;
+	max-height: 265px;
+	height: calc(95vw / 2 / 16 * 9);
+	width: calc(90vw - 10px);
+	background-color: dodgerblue;
+	margin: 5px;
+	background-position: center;
+	background-size: cover;
+}
+
+.heading {
+	font-size: 52px;
+	text-align: center;
+	width: 100%;
+	padding: 30px 0;
+	font-family: BrahmsGotisch;
+	color: dodgerblue;
+}
+
+.img_link {
+	display: block;
+}

@@ -1,0 +1,54 @@
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Галерея</title>
+    <title>Смена 2-х картинок</title>
+	<style>
+#img_container {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#img_container img {
+  position:absolute;
+  left:0;
+  transition: opacity 1s ease-in-out;
+  height:281px;
+  width:450px;
+}
+
+@keyframes img_anim {
+ 0% {
+   opacity:1;
+ }
+ 45% {
+  opacity:1;
+}
+55% {
+  opacity:0;
+}
+100% {
+ opacity:0;
+}
+}
+
+#img_container img.top {
+  animation-name: img_anim;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+	</style>
+  </head>
+  <body>
+	<div id="img_container">
+		<img class="bottom" src="img/1.jpg" />
+		<img class="top" src="img/2.jpg" />
+	</div>
+  </body>
+</html>

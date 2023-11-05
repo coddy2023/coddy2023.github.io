@@ -1,0 +1,23 @@
+@media all and (max-width:1024px){
+	.img-box{
+		width: 95%;
+		column-count: 3;
+	}
+}
+@media all and (max-width: 768px){
+	.img-box{
+		width: 100%;
+		column-count: 2;
+	}
+}
+@media all and (max-width:480px){
+	.img-box{
+		column-count: 1;
+	}
+}
+@media all and (min-width: 1000px){
+	.img-wrapper:hover{
+		opacity: 1;
+		filter: invert(75%);
+	}
+}
